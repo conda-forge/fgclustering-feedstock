@@ -1,13 +1,13 @@
 {% set name = "fgclustering" %}
-{% set version = "1.1.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: "cc628e1d88a21f8603b537c873d03ddff18b69d8759ee0c79dd9a7bfb9621b5f"
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: "e3dbba85860943cfe704e2617caf419f00e47e01039780466659ce76313fafb7"
 
 build:
   number: 0
@@ -45,8 +45,8 @@ test:
 about:
   home: "https://github.com/HelmholtzAI-Consultants-Munich/fg-clustering"
   summary: "Explainability for Random Forest Models."
-  license: "MIT" 
-  license_file: LICENSE 
+  license: "MIT"
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
